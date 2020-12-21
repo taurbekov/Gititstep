@@ -63,11 +63,9 @@
             <tr>
                 <td>Характеристики</td>
                 <td>
-                    <input type="number" name="intelligence" min="1" max="20">Интеллект
-                    <p>&nbsp;</p>
-                    <input type="number" name="constitution" min="1" max="20">Конституция
-                    <p>&nbsp;</p>
-                    <input type="number" name="charisma" min="1" max="20">Харизма
+                    <pre><input type="number" name="intelligence" min="1" max="20" disabled>Интеллект
+                        <pre><input type="number" name="constitution" min="1" max="20"disabled>Конституция
+                            <pre><input type="number" name="charisma" min="1" max="20" disabled>Харизма
                 </td>
         
             </tr>
@@ -77,19 +75,20 @@
             </tr>
             <tr>
                 <td>Инвентарь</td>
-                <td><input name="inventory" type="checkbox">
-                    <input name="inventory" type="checkbox">
-                    <input name="inventory" type="checkbox"></td>
+                <td>
+                    <label></label><input name="inventory-axe" type="checkbox">Топор</label>
+                    <label> <input name="inventory-hummer" type="checkbox">Молоток</label>
+                    <label><input name="inventory-drill" type="checkbox">Дрель</label>
+                    </td>
             </tr>
             <tr>
                 <td>Цвет корабля</td>
                 <td><input name="shipcolor" type="color"></td>
-                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td>Описание</td>
                 <td><input type="text"></td>
-                <td>&nbsp;</td>
+
             </tr>
         </tbody>
     </table>

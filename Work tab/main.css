@@ -1,0 +1,19 @@
+/* 
+ */
+/* .container div:nth-child(2n) {
+    background-color: chocolate;
+
+} */
+html{
+    height: 100%;
+   
+}
+Body{
+    height: 100%;
+    margin: 0 ;
+}
+.container{
+    background-color: coral;
+    height:100%;
+    overflow: auto;
+}
