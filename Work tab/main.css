@@ -17,3 +17,61 @@ Body{
     height:100%;
     overflow: auto;
 }
+/* Desktop - 1 */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+
+
+/* РЕГИСТРАЦИЯ ПОЛЬЗОВАТЕЛЯ */
+
+position: absolute;
+visibility: hidden;
+width: 518px;
+height: 172px;
+left: 603px;
+top: 84px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+mix-blend-mode: color-burn;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 1343px;
+height: 138px;
+left: 63px;
+top: 32px;
+
+background: #C4C4C4;
+
+
+/* HTUBCNHFWBZX */
+
+position: absolute;
+width: 476px;
+height: 69px;
+left: 482px;
+top: 90px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+

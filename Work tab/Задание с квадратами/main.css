@@ -1,0 +1,55 @@
+
+  html, body {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    
+  }
+  
+  /* Квадрат в квадрате */
+  
+  #rectangle {
+    padding: 20px;
+  }
+  .outerrec, .innerec{
+    height: 100%;
+    margin: 0px;
+  }
+  .outerrec {
+    background-color: indigo;
+    padding: 20px;
+  }
+  .innerec {
+    background-color: orange;
+  }
+
+  /* Пирамида */
+  .piramid {
+    height: 300px;
+  }
+  
+  .nebo {
+    background-color: skyblue;
+    height: 100%;
+  }
+  
+  .piramid {
+    margin-top: -300px;
+  }
+  
+  .piramid div {
+    margin: 0 auto;
+    height: 100px;
+    background-color: sandybrown;
+  }
+  
+  .r1 {
+    width: 100px;
+  }
+  .r2 {
+    width: 200px;
+  }
+  .r3 {
+    width: 300px;
+  }
+  
