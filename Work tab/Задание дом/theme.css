@@ -1,0 +1,145 @@
+/* *{
+  margin: 0;
+  padding: 0; */
+}
+
+body {
+    font: 400 15px  Arial, sans-serif;
+  }
+  
+  .lawn {
+    background-color: hsl(120, 58%, 33%);
+  }
+    
+  .terrace {
+    display: flex;
+    height: 600px;
+    width: 300px;
+    margin: 30px;
+    background-color: hsl(28, 32%, 66%);
+    }
+  
+  .dining {
+    display: flex;
+    height: 75px;
+    width: 30px;
+    align-items: center;
+    margin: 50px;
+    padding: 110px;
+    background-color: hsl(0, 80%, 90%);
+    /* outline: 3px solid #000; 
+    border: 6px solid #fff; 
+    inline-size: 1px; */
+  }
+  
+  .kitchen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -109px;
+    height: 59px;
+    width: 100px;
+    padding: 71px;
+    margin-top: 497px;
+    background-color: hsl(51, 80%, 90%);
+    /* outline: 3px solid #000; 
+    border: 6px solid #fff; 
+    inline-size: 1px; */
+  }
+  
+  .storage {
+    background-color: hsl(102, 80%, 90%);
+    display: flex;
+    width: 70px;
+    height: 180px;
+    margin-top: -115px;
+    align-items: center;
+    justify-content: center;
+    /* outline: 3px solid #000; 
+    border: 6px solid #fff; 
+    inline-size: 1px; */
+  } 
+  
+  .bathroom {
+    background-color: hsl(204, 80%, 90%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 115px;
+    height: 180px;
+    margin-top: -115px; 
+    /* outline: 3px solid #000; 
+    border: 6px solid #fff; 
+    inline-size: 1px; */
+  } 
+  
+  .hall {
+    background-color: hsl(255, 80%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 183px;
+    height: 240px;
+    margin-top: 305px;
+    margin-left: -183px;
+    /* outline: 3px solid #000; 
+    border: 6px solid #fff; 
+    inline-size: 1px; */
+
+  }
+  
+  .entry {
+    background-color: hsl(153, 80%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 183px;
+    height: 200px;
+    margin-top: 675px;
+    margin-left: -183px;
+    /* outline: 3px solid #000; 
+    border: 6px solid #fff; 
+    inline-size: 1px; */
+
+  }
+  
+  .guest {
+    background-color: hsl(306, 80%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 522px;
+    height: 380px;
+    margin-top: 165px;
+    margin-left: 0px;
+    border-top-right-radius: 40px;
+      /* outline: 3px solid #000; 
+      border: 6px solid #fff; 
+      inline-size: 1px; */
+  }
+  
+  .garage {  
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 600px;
+    height: 200px;
+    margin-top: 675px;
+    margin-left: -522px;
+    /* outline: 3px solid #000; 
+    border: 6px solid #fff; 
+    inline-size: 1px; */
+
+  }
+  /* .boxterrace div{
+    outline: 3px solid #000; 
+    border: 6px solid #fff; 
+    inline-size: 1px;  */
+   }
+  /* .guest{
+    border-top-right-radius: 40px;
+    outline: 3px solid #000; 
+    border: 6px solid #fff; 
+    inline-size: 1px;
+  } */ */
