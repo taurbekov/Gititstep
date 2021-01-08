@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+}
+body {
+        font: 400 15px  Arial, sans-serif;
+        margin: 4%;
+        padding: 4%;
+        background-color: hsl(120, 58%, 33%);
+        display: flex;
+        
+        
+  }
+  .main{
+      display: flex;
+   
+  }
+
+  .lawn {
+    background-color: hsl(120, 58%, 33%);
+  }
+    
+  .terrace {
+    background-color: hsl(28, 32%, 66%);
+    display: flex;
+    height: 600px;
+    width: 300px;
+    
+  }
+  
+  .dining {
+    background-color: hsl(0, 80%, 90%);
+    display: flex;
+    height: 275px;
+    width: 230  px;
+   z-index: 1;
+   position: absolute;
+  
+    
+    
+  }
+  
+  .kitchen {
+    background-color: hsl(51, 80%, 90%);
+    display: flex;
+    height: 59px;
+    width: 100px;
+    height: 250px;
+    width: 150px;
+    position: absolute;
+    z-index: 2;
+    
+  }
+  
+  .storage {
+    background-color: hsl(102, 80%, 90%);
+    display: flex;
+    width: 70px;
+    height: 180px;
+    
+  } 
+  
+  .bathroom {
+    background-color: hsl(204, 80%, 90%);
+    display: flex;
+    width: 115px;
+    height: 180px;
+    
+  } 
+  
+  .hall {
+    background-color: hsl(255, 80%, 90%);
+    display: flex;
+    width: 183px;
+    height: 240px;
+    
+  }
+  
+  .entry {
+    background-color: hsl(153, 80%, 90%);
+    display: flex;
+    width: 183px;
+    height: 200px;
+     
+  }
+  
+  .guest {
+    background-color: hsl(306, 80%, 90%);
+    display: flex;
+    width: 522px;
+    height: 380px;
+    border-top-right-radius: 40px;
+     
+  }
+  
+  .garage {  
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    width: 600px;
+    height: 200px;
+   
+  }
+ .col2{
+   display: flex;
+   flex-direction: row;
+  
+   
+    
+ }
+ .col1{
+   display: flex;
+   justify-content: flex-end;
+    
+ }
+.col4{
+  display: flex;
+  flex-direction: column;
+}
+.col3{
+  display: flex;
+  flex-direction: column;
+}

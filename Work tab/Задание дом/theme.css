@@ -5,6 +5,7 @@
 
 body {
     font: 400 15px  Arial, sans-serif;
+    display: flex;
   }
   
   .lawn {
@@ -12,7 +13,9 @@ body {
   }
     
   .terrace {
+    box-sizing: border-box;
     display: flex;
+    flex: 1 0 auto;
     height: 600px;
     width: 300px;
     margin: 30px;
@@ -20,6 +23,7 @@ body {
     }
   
   .dining {
+    box-sizing: border-box;
     display: flex;
     height: 75px;
     width: 30px;
@@ -33,6 +37,7 @@ body {
   }
   
   .kitchen {
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,6 +53,7 @@ body {
   }
   
   .storage {
+    box-sizing: border-box;
     background-color: hsl(102, 80%, 90%);
     display: flex;
     width: 70px;
@@ -61,27 +67,30 @@ body {
   } 
   
   .bathroom {
+    box-sizing: border-box;
     background-color: hsl(204, 80%, 90%);
     display:flex;
     align-items: center;
     justify-content: center;
     min-width: 115px;
     height: 180px;
-    margin-top: -115px; 
+    /* margin-top: -115px;  */
     /* outline: 3px solid #000; 
     border: 6px solid #fff; 
     inline-size: 1px; */
   } 
   
   .hall {
+    box-sizing: border-box;
     background-color: hsl(255, 80%, 90%);
     display: flex;
+    flex: auto;
     align-items: center;
     justify-content: center;
     min-width: 183px;
     height: 240px;
     margin-top: 305px;
-    margin-left: -183px;
+    margin-left: -98px;
     /* outline: 3px solid #000; 
     border: 6px solid #fff; 
     inline-size: 1px; */
@@ -89,6 +98,7 @@ body {
   }
   
   .entry {
+    box-sizing: border-box;
     background-color: hsl(153, 80%, 90%);
     display: flex;
     align-items: center;
@@ -104,8 +114,10 @@ body {
   }
   
   .guest {
+    box-sizing: border-box;
     background-color: hsl(306, 80%, 90%);
     display: flex;
+    flex: 1 0 auto;
     align-items: center;
     justify-content: center;
     min-width: 522px;
@@ -119,8 +131,10 @@ body {
   }
   
   .garage {  
+    box-sizing: border-box;
     background-color: hsl(0, 0%, 90%);
     display: flex;
+    flex: 1 0 auto;
     align-items: center;
     justify-content: center;
     min-width: 600px;
@@ -132,10 +146,12 @@ body {
     inline-size: 1px; */
 
   }
-  /* .boxterrace div{
+  .boxterrace div {
+    box-sizing: border-box;
     outline: 3px solid #000; 
     border: 6px solid #fff; 
-    inline-size: 1px;  */
+    inline-size: 1px; 
+    flex: auto;
    }
   /* .guest{
     border-top-right-radius: 40px;
