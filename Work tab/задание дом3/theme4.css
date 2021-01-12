@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@800&family=Pacifico&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body { 
+    font: 400 15px; 
+    font-family: 'Pacifico', serif;
+    margin: 4%;
+    display: flex;
+  }
+  
+  .lawn {
+    background-color: hsl(120, 58%, 33%);
+  }
+    
+.t1{
+   width: 7px;
+   height: 7px;
+   box-shadow: 0 0 0 3px #fff, 0 0 0 6px #000;
+   border:  solid black;
+   
+   
+}
+
+.pillars{
+
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+z-index: 1;
+position: relative;
+left: 30px;
+
+}
+  .terrace {
+    background-color: hsl(28, 32%, 66%);
+    height: 520px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+   
+  }
+  
+  .dining {
+    background-color: hsl(0, 80%, 90%);
+    height: 220px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  
+  }
+
+  .kitchen {
+    background-color: hsl(51, 80%, 90%);
+    height: 180px;
+    width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .col2{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .storage {
+    background-color: hsl(102, 80%, 90%);
+    width: 70px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  } 
+  
+  .bathroom {
+    background-color: hsl(204, 80%, 90%);
+    width: 100px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  
+  .hall {
+    background-color: hsl(255, 80%, 90%);
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .entry {
+    background-color: hsl(153, 80%, 90%);
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .right-wing{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  
+  .guest {
+    background-color: hsl(306, 80%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    max-width: 500px;
+    height: 300px;
+    border-top-right-radius: 80px;
+
+  }
+  
+  .garage {  
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 600px;
+  }

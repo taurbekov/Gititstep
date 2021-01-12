@@ -31,9 +31,9 @@ body {
     margin: 50px;
     padding: 110px;
     background-color: hsl(0, 80%, 90%);
-    /* outline: 3px solid #000; 
+    outline: 3px solid #000; 
     border: 6px solid #fff; 
-    inline-size: 1px; */
+    inline-size: 1px;
   }
   
   .kitchen {
@@ -47,6 +47,7 @@ body {
     padding: 71px;
     margin-top: 497px;
     background-color: hsl(51, 80%, 90%);
+    display: none;
     /* outline: 3px solid #000; 
     border: 6px solid #fff; 
     inline-size: 1px; */

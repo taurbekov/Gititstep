@@ -1,18 +1,18 @@
 *{
   box-sizing: border-box;
+  
 }
-body {
+body, html{
         font: 400 15px  Arial, sans-serif;
         margin: 4%;
-        padding: 4%;
+        padding: 0;
         background-color: hsl(120, 58%, 33%);
         display: flex;
-        
+       
         
   }
   .main{
-      display: flex;
-   
+      display: flex;   
   }
 
   .lawn {
@@ -26,45 +26,70 @@ body {
     width: 300px;
     
   }
+
   
   .dining {
     background-color: hsl(0, 80%, 90%);
     display: flex;
-    height: 275px;
-    width: 230  px;
+    height: 278px;
+    width: 230px;
    z-index: 1;
    position: absolute;
+   align-items: center;
+   justify-content: center; 
+   top: 23%;
+   left: 133px;
+   
+  /* border: solid 6px white;
+  outline: solid 1px black; */
   
-    
-    
+   box-shadow: 0 0 0 3px #fff, 0 0 0 6px #000;
+   border:  solid black;
+      
   }
-  
+
   .kitchen {
     background-color: hsl(51, 80%, 90%);
     display: flex;
-    height: 59px;
-    width: 100px;
-    height: 250px;
-    width: 150px;
+    height: 198px;
+    width: 142px;
     position: absolute;
     z-index: 2;
+    align-items: center;
+    justify-content: center; 
+    top: 60%;
+    left: 222px;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 6px #000;
+   border:  solid black;
     
   }
+  
   
   .storage {
     background-color: hsl(102, 80%, 90%);
     display: flex;
-    width: 70px;
+    width: 86px;
     height: 180px;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 6px #000;
+   border:  solid black;
+   justify-content: center;
+   align-items: center;
+   border-right: none;
+   
     
   } 
+ 
   
   .bathroom {
-    background-color: hsl(204, 80%, 90%);
+    background-color: rgb(209, 234, 250);
     display: flex;
-    width: 115px;
+    width: 93px;
     height: 180px;
-    
+    box-shadow: 0 0 0 3px #fff, 0 0 0 6px #000;
+   border:  solid black;
+   justify-content: center;
+   align-items: center;
+   border-left: none;
   } 
   
   .hall {
@@ -72,7 +97,11 @@ body {
     display: flex;
     width: 183px;
     height: 240px;
-    
+    flex-wrap: wrap;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 6px #000;
+   border:  solid black;
+   justify-content: center;
+   align-items: center;
   }
   
   .entry {
@@ -80,42 +109,123 @@ body {
     display: flex;
     width: 183px;
     height: 200px;
-     
+    box-shadow: 0 0 0 3px #fff, 0 0 0 6px #000;
+    border:  solid black;
+    justify-content: center;
+    align-items: center;
   }
   
   .guest {
     background-color: hsl(306, 80%, 90%);
     display: flex;
-    width: 522px;
+    width: 500px;
+    max-width: 500px;
     height: 380px;
     border-top-right-radius: 40px;
-     
+    align-items: center;
+    justify-content: center; 
+    box-shadow: 0 0 0 3px #fff, 0 0 0 6px #000;
+   border:  solid black;
   }
   
   .garage {  
     background-color: hsl(0, 0%, 100%);
     display: flex;
-    width: 600px;
-    height: 200px;
-   
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 6px #000;
+   border:  solid black;
+   border-bottom: none;
+   border-right: none;
+   flex: 0 0 200px;
   }
  .col2{
    display: flex;
    flex-direction: row;
-  
-   
-    
+
  }
  .col1{
    display: flex;
    justify-content: flex-end;
+   
     
  }
 .col4{
+  position: relative;
   display: flex;
   flex-direction: column;
+  align-self: flex-end;
+  justify-content: center;
 }
 .col3{
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
+flex-wrap: wrap;
 }
+.col9 div{
+  display: flex;
+   width: 7px;
+   height: 7px;
+   box-shadow: 0 0 0 3px #fff, 0 0 0 6px #000;
+   border:  solid black;
+   
+    }
+    .col9{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: -20px;
+      padding: -20px;
+      z-index: 1;
+    }
+
+    /* *, *:before, *:after{ 
+      box-sizing: border-box; 
+  } 
+  .tre{ 
+      display: flex;
+      position: relative;
+      height: 20px; 
+      width: 25px; 
+      padding: 1px; 
+      top: 0px; 
+      transform: rotate(0deg) skew(0deg); 
+      -webkit-transform: rotate(0deg) skew(0deg); 
+      border-top: 0px solid transparent; 
+      border-left: 0px solid transparent; 
+      border-right: 10px solid #000000; 
+      border-bottom: 9px solid #000000; 
+     
+    
+  } */
+  
+  /* .size-x{
+    transform: translate(-50%, 0);
+    position: absolute;
+    
+  }
+  .size-y{
+    transform-origin: top left; transform: rotateZ(-90deg) translate(-50%, 0);
+    position: absolute;
+  } */
+   .parking{
+     position: absolute;
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+  }
+  
+  .parking div{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 145px;
+    width: 85px;
+    border: 1px solid black;
+    z-index: 1;
+  } 
